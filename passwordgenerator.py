@@ -4,7 +4,7 @@ enter = raw_input("Please enter a password: ")
 hashReady = list(enter)
 newEnter = ""
 
-for x in hashRead:
+for x in hashReady:
     ascii = ord(x) + 3
     newEnter += chr(ascii)
 
